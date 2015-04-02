@@ -33,4 +33,4 @@ Ex: Validate="radio and checkboxes" -->   Higlight check boxes and radio buttons
 Ex: Validate="Address" --> Validate Address [Accept 5 to 20 Chars].                 
 Ex: Validate="Submit" --> Validate Submit [Validate onclick()]
  
-Alert: Finally it will displays Submitted Successfully.
+Alert: Finally it will displays Submitted Successfully. 
