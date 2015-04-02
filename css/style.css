@@ -1,0 +1,58 @@
+body
+{
+	margin: 0px auto;
+	padding: 0px;
+	background: url(../images/water_background.jpg);
+	width: 800px;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+form
+{
+background: #DDE4E2;
+border-radius: 5px 5px 0px 0px;
+
+}
+h1
+{
+	text-align: center;
+	color: #03294d;
+	border:2px solid #DBBDF6;
+	background: #DBBDF6;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid grey;
+	height: 45px;
+}
+table
+{
+	margin-left: 30px;
+	color: #3379a1;
+}
+form table {margin-top:10px;}
+form table td {vertical-align:top;}
+form table td label { top:3px;}
+table tbody td {padding-bottom:10px;}
+
+table{
+
+}
+input[type=text],[type=email],[type=password],[type=number]{
+	width:350px;
+	height:20px;
+}
+
+p{
+
+	display: inline;
+}
+input[type=submit]
+{
+	width: 130px;
+	height: 40px;
+	background:#D6B5F5;
+	color: green;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 40px;
+	
+}

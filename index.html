@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Generic Validation on Js</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
+		<script type="text/javascript" src="js/jsvalidation.js"></script>	
+	</head>
+<body>
+	<main>
+		<form name="application" novalidate onSubmit="return formGenericValidation(this)" method="post" >
+		<h1>Student Online Registration</h1>
+		<table border="0" cellspacing="2" cellpadding="2">
+			<tr>
+				<td>Student Name:</td>
+				<td>
+					<input type="text" id="FirstName" name="FirstName" size="20" required >
+				</td>
+			</tr>
+			<tr>
+				<td>Username:</td>
+				<td>
+					<input type="text" id="Username" name="Username" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td>Email: </td>
+				<td>
+					<input type="email" id="email" name="email" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td>
+					<input type="password" id="password" name="password" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td>Confirm Password: </td>
+				<td>
+					<input type="password" id="Confirm password" name="Confirm password" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td>Mobile Number: </td>
+				<td>
+					<input type="number" id="number" name="number" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td>Select Course: </td>
+				<td>
+					<input type="checkbox" id="checkbox" name="checkbox" value="option">MBA
+					<input type="checkbox" id="checkbox" name="checkbox" value="option">MCA
+					<input type="checkbox" id="checkbox" name="checkbox" value="option">M.Tech
+					<input type="checkbox" id="checkbox" name="checkbox" value="option">M.Phil
+					<input type="checkbox" id="checkbox" name="checkbox" value="option">M.Com
+				</td>
+			</tr>
+			<tr valign="top">
+				<td>Gender:</td>
+				<td>
+					<input type="radio" id="sex" name="sex" value="Female"> Female<br>
+					<input type="radio" id="sex" name="sex" value="male"> Male<br>
+					<input type="radio" id="sex" name="sex" value="Other"> Rather not say
+				</td>
+			</tr>
+			<tr>
+				<td>Address: </td>
+				<td>
+					<input type="text" id="Address" name="Address" size="20" style="outline: medium none; height: 70px;">
+				</td>
+			</tr>
+			<tr>	
+				<td colspan="3">
+					<input name="submit" id="submit" type="submit" value="Submit" >
+				</td>
+			</tr>
+		</table>
+	</form>
+	</main>
+</body>
+</html>
+
